@@ -707,7 +707,7 @@ function App() {
               <div className="project-title">Telecom Billing System</div>
               <p className="project-desc">Built a telecom billing application with JWT authentication and role-based access control. Includes plan management, recharges, call/SMS/data usage tracking, and automated bill generation.</p>
               <div className="project-tags"><span className="project-tag">React</span><span className="project-tag">Node.js</span><span className="project-tag">Express</span><span className="project-tag">MongoDB</span><span className="project-tag">JWT</span></div>
-              <div className="project-links"><span className="project-link">Secure billing &amp; usage management</span><div className="project-arrow">↗</div></div>
+              <a href="https://github.com/NithyaSriSenthilram/Telecom-Billing-System" className="project-links" target="_blank" rel="noreferrer"><span className="project-link">Secure billing &amp; usage management</span><div className="project-arrow">↗</div></a>
             </div>
           </div>
           <div className="project-card fade-up">
@@ -717,7 +717,7 @@ function App() {
               <div className="project-title">AI Resume Screening</div>
               <p className="project-desc">Created a recruitment platform that compares resumes with job descriptions using TF-IDF and cosine similarity, computes match scores, and highlights matched and missing skills. Includes recruiter login, uploads, and screening reports.</p>
               <div className="project-tags"><span className="project-tag">React</span><span className="project-tag">Node.js</span><span className="project-tag">MongoDB</span><span className="project-tag">Python</span><span className="project-tag">Flask</span></div>
-              <div className="project-links"><span className="project-link">NLP-powered candidate analysis</span><div className="project-arrow" style={{ background: '#5c6bc0' }}>↗</div></div>
+              <a href="https://github.com/NithyaSriSenthilram/HireSense-AI" className="project-links" target="_blank" rel="noreferrer"><span className="project-link">NLP-powered candidate analysis</span><div className="project-arrow" style={{ background: '#5c6bc0' }}>↗</div></a>
             </div>
           </div>
           <div className="project-card fade-up">
@@ -727,7 +727,7 @@ function App() {
               <div className="project-title">Certification Generator</div>
               <p className="project-desc">Developed a certificate management application with customizable templates, dynamic text fields, and live previews. REST APIs support certificate processing and PDF generation/downloads.</p>
               <div className="project-tags"><span className="project-tag">React</span><span className="project-tag">Node.js</span><span className="project-tag">Express</span><span className="project-tag">MongoDB</span><span className="project-tag">PDF</span></div>
-              <div className="project-links"><span className="project-link">Custom templates &amp; PDF downloads</span><div className="project-arrow" style={{ background: '#1e88e5' }}>↗</div></div>
+              <a href="https://github.com/NithyaSriSenthilram/Certificate-Generator" className="project-links" target="_blank" rel="noreferrer"><span className="project-link">Custom templates &amp; PDF downloads</span><div className="project-arrow" style={{ background: '#1e88e5' }}>↗</div></a>
             </div>
           </div>
           <div className="project-card fade-up">
