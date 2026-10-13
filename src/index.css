@@ -813,7 +813,7 @@ section {
 }
 
 /* ── SERVICES ── */
-#services {
+#skills {
   background: white;
   padding: 0;
 }
@@ -883,8 +883,9 @@ section {
 }
 
 .services-inline-label .section-heading {
-  font-size: clamp(3.5rem, 8vw, 7rem);
-  white-space: nowrap;
+  font-size: clamp(2.5rem, 5.5vw, 5rem);
+  white-space: normal;
+  max-width: 500px;
 }
 
 .service-parallax-flower {
@@ -1015,6 +1016,16 @@ section {
 /* ── EXPERIENCE ── */
 #experience {
   padding: 120px 48px;
+  background: var(--off-white);
+}
+
+#education,
+#certifications {
+  padding: 120px 48px;
+  background: white;
+}
+
+#certifications {
   background: var(--off-white);
 }
 

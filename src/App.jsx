@@ -368,9 +368,11 @@ function App() {
         <a href="#hero" className="nav-logo">NITHYA SRI<span>.</span></a>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -385,7 +387,7 @@ function App() {
           <div className="id-card">
             <div className="id-card-spacer"></div>
             <div className="id-card-photo-placeholder">
-              <img src="/IMG_2768.jpg" alt="Avatar" className="id-card-photo" />
+              <img src="/img.jpeg" alt="Nithya Sri" className="id-card-photo" />
             </div>
             <div className="id-card-field">
               <span className="id-card-field-label">Name</span>
@@ -393,15 +395,15 @@ function App() {
             </div>
             <div className="id-card-field">
               <span className="id-card-field-label">Role</span>
-              <span className="id-card-field-value">Full Stack Developer</span>
+              <span className="id-card-field-value">Computer Science Student</span>
             </div>
           </div>
         </div>
         <div className="hero-bg-text">PORTFOLIO</div>
         <div className="hero-tags">
-          <span className="hero-tag">Full Stack Developer</span>
-          <span className="hero-tag">Developer · Creator</span>
-          <span className="hero-tag available">● Available</span>
+          <span className="hero-tag">Computer Science Student</span>
+          <span className="hero-tag">Full-Stack Developer</span>
+          <span className="hero-tag">B.E. Computer Science · 2023–2027</span>
         </div>
         <div className="hero-scroll">Scroll to explore</div>
       </section>
@@ -421,10 +423,10 @@ function App() {
           </div>
           <div className="about-right fade-up">
             <div className="about-tags">
-              <span className="about-tag">UI/UX Design</span>
-              <span className="about-tag">Developer</span>
-              <span className="about-tag">Creator</span>
-              <span className="about-tag">India</span>
+              <span className="about-tag">Computer Science</span>
+              <span className="about-tag">Full-Stack Development</span>
+              <span className="about-tag">Problem Solver</span>
+              <span className="about-tag">Tamil Nadu, India</span>
             </div>
 
             <div className="about-tabs-nav">
@@ -453,10 +455,10 @@ function App() {
                 <div className="story-card">
                   <div className="about-greeting">nice to meet you!</div>
                   <p className="about-text">
-                    I'm Nithya Sri. I <span className="about-highlight">design</span>, I <span className="about-highlight">code</span>, and I <span className="about-highlight">build</span> — basically, I do everything that feels <span className="about-highlight">creative</span>. Tech has always been a part of me; I've been fascinated by it since I was a child.
+                    I'm Nithya Sri, a Computer Science student at Ramco Institute of Technology with a CGPA of 8.3/10. I enjoy solving problems, collaborating with others, and building practical applications with modern web technologies.
                   </p>
                   <p className="about-text faded">
-                    This space is where I share it all — from design tips and creative ideas to my process, experiments, and even the occasional random, slightly chaotic thought. It's a little messy, very honest, and always driven by a love for creating. Glad you're here!
+                    Through independent projects and an Android app development internship, I've gained hands-on experience across frontend, backend, databases, and mobile development. I'm eager to contribute to real-world projects and keep learning.
                   </p>
                 </div>
               </div>
@@ -467,28 +469,28 @@ function App() {
                 <div className="about-greeting">tools of the trade</div>
                 <div className="skills-grid">
                   <div className="skill-card">
-                    <span className="skill-icon">🎨</span>
-                    <span className="skill-name">UI/UX Design</span>
+                    <span className="skill-icon">☕</span>
+                    <span className="skill-name">Java</span>
                   </div>
                   <div className="skill-card">
                     <span className="skill-icon">⚛️</span>
                     <span className="skill-name">React</span>
                   </div>
                   <div className="skill-card">
-                    <span className="skill-icon">⚡</span>
-                    <span className="skill-name">JavaScript</span>
+                    <span className="skill-icon">🐍</span>
+                    <span className="skill-name">Python</span>
+                  </div>
+                  <div className="skill-card">
+                    <span className="skill-icon">🗄️</span>
+                    <span className="skill-name">SQL</span>
+                  </div>
+                  <div className="skill-card">
+                    <span className="skill-icon">🌐</span>
+                    <span className="skill-name">HTML &amp; CSS</span>
                   </div>
                   <div className="skill-card">
                     <span className="skill-icon">📱</span>
-                    <span className="skill-name">Mobile Apps</span>
-                  </div>
-                  <div className="skill-card">
-                    <span className="skill-icon">📐</span>
-                    <span className="skill-name">Wireframing</span>
-                  </div>
-                  <div className="skill-card">
-                    <span className="skill-icon">💻</span>
-                    <span className="skill-name">Frontend Dev</span>
+                    <span className="skill-name">Android Studio</span>
                   </div>
                 </div>
               </div>
@@ -518,32 +520,32 @@ function App() {
         </div>
       </section>
 
-      {/* SERVICES */}
-      <section id="services">
+      {/* TECHNICAL SKILLS */}
+      <section id="skills">
         <div className="services-parallax-wrap">
           {[
             {
               num: '01',
-              title: 'UI/UX DESIGN',
-              items: ['User-centered interface design', 'Wireframing & user flows', 'High-fidelity UI design', 'Design systems & style guides', 'Mobile & web app design'],
+              title: 'LANGUAGES',
+              items: ['Java', 'C', 'Python', 'SQL'],
               flower: '/f1_nobg.png'
             },
             {
               num: '02',
-              title: 'INTERACTIVE PROTOTYPING',
-              items: ['Clickable Figma prototypes', 'User journey visualization', 'Micro-interaction design', 'Usability testing prototypes', 'Product validation mockups'],
+              title: 'WEB DEVELOPMENT',
+              items: ['HTML5 & CSS3', 'React.js', 'Node.js', 'Express.js'],
               flower: '/f6 Background Removed.png'
             },
             {
               num: '03',
-              title: 'WEB & MOBILE APP DESIGN',
-              items: ['Responsive website design', 'SaaS dashboard design', 'E-commerce UI design', 'Mobile application interfaces', 'Landing page design'],
+              title: 'DATABASES & MOBILE',
+              items: ['MongoDB', 'Firebase', 'Android Studio', 'XML layouts'],
               flower: '/f7 Background Removed.png'
             },
             {
               num: '04',
-              title: 'USER RESEARCH & UX STRATEGY',
-              items: ['User research & analysis', 'Competitor analysis', 'Persona creation', 'Information architecture', 'UX audits & improvement recommendations'],
+              title: 'TOOLS & PLATFORMS',
+              items: ['Git & GitHub', 'Figma', 'Vercel', 'Netlify'],
               flower: '/b1.png'
             }
           ].map((svc, i) => {
@@ -597,8 +599,8 @@ function App() {
                     <div className="service-parallax-left">
                       {i === 0 && (
                         <div className="services-inline-label">
-                          <div className="section-eyebrow">What I Do</div>
-                          <div className="section-heading">SERVICES</div>
+                          <div className="section-eyebrow">My Toolkit</div>
+                          <div className="section-heading">TECHNICAL SKILLS</div>
                         </div>
                       )}
                       <img src={svc.flower} alt="" className="service-parallax-flower" />
@@ -621,31 +623,69 @@ function App() {
         </div>
       </section>
 
-      {/* EXPERIENCE */}
-      <section id="experience">
+      {/* EDUCATION */}
+      <section id="education">
         <div className="experience-inner">
           <div className="experience-header fade-up">
             <div>
-              <div className="section-eyebrow">Work History</div>
-              <div className="section-heading">EXPERIENCE</div>
+              <div className="section-eyebrow">Academic Background</div>
+              <div className="section-heading">EDUCATION</div>
             </div>
-            <div className="experience-summary">1.5 years of crafting user-focused digital experiences and interactive prototypes.</div>
           </div>
           <div className="timeline">
             <div className="timeline-item fade-up">
               <div className="timeline-dot"></div>
               <div>
-                <div className="timeline-duration">1 Year 6 Months</div>
-                <div className="timeline-type">Freelance</div>
+                <div className="timeline-duration">Sep 2023 – May 2027</div>
+                <div className="timeline-type">Undergraduate</div>
               </div>
               <div>
-                <div className="timeline-role">UI/UX Designer</div>
-                <div className="timeline-company">Self-Internship / Freelance</div>
-                <p className="timeline-desc">Worked as a self-driven freelance UI/UX designer, creating user-focused designs and interactive prototypes using Figma. Designed mobile and web interfaces, developed wireframes, user flows, and high-fidelity prototypes while focusing on usability, visual consistency, and improving overall user experience.</p>
+                <div className="timeline-role">Bachelor of Engineering, Computer Science</div>
+                <div className="timeline-company">Ramco Institute of Technology · Rajapalayam, Tamil Nadu</div>
+                <p className="timeline-desc">Current CGPA: 8.3/10</p>
+              </div>
+            </div>
+            <div className="timeline-item fade-up">
+              <div className="timeline-dot"></div>
+              <div>
+                <div className="timeline-duration">2022 – 2023</div>
+                <div className="timeline-type">Higher Secondary</div>
+              </div>
+              <div>
+                <div className="timeline-role">HSC · 86%</div>
+                <div className="timeline-company">Sivanandha Vidyalayam Matric Higher Secondary School · Aruppukottai, Tamil Nadu</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* EXPERIENCE */}
+      <section id="experience">
+        <div className="experience-inner">
+          <div className="experience-header fade-up">
+            <div>
+              <div className="section-eyebrow">Professional Experience</div>
+              <div className="section-heading">INTERNSHIP</div>
+            </div>
+            <div className="experience-summary">Hands-on Android app development experience at Hitasoft Technology Solutions.</div>
+          </div>
+          <div className="timeline">
+            <div className="timeline-item fade-up">
+              <div className="timeline-dot"></div>
+              <div>
+                <div className="timeline-duration">Jul 2025</div>
+                <div className="timeline-type">Internship</div>
+              </div>
+              <div>
+                <div className="timeline-role">Android App Development Intern</div>
+                <div className="timeline-company">Hitasoft Technology Solutions Pvt Limited · Madurai</div>
+                <p className="timeline-desc">Designed Android interfaces with XML and implemented key application features and navigation.</p>
                 <ul className="timeline-bullets">
-                  <li>Created user-centered designs and interactive prototypes using Figma</li>
-                  <li>Developed wireframes, user flows, and high-fidelity interfaces</li>
-                  <li>Practiced design thinking and delivered solutions based on project requirements</li>
+                  <li>Designed UI screens and implemented a splash screen using XML</li>
+                  <li>Worked with conditional logic, Intents, and Fragments</li>
+                  <li>Implemented Bottom Navigation and SharedPreferences for data storage</li>
+                  <li>Integrated WebView to display web content</li>
                 </ul>
               </div>
             </div>
@@ -661,53 +701,129 @@ function App() {
             <div className="section-heading">PROJECTS</div>
           </div>
           <div className="project-card fade-up">
-            <div className="project-card-banner banner-1"><span style={{ fontSize: '5rem' }}>🥛</span><div className="project-year-badge">2026</div></div>
+            <div className="project-card-banner banner-1"><span style={{ fontSize: '5rem' }}>📡</span><div className="project-year-badge">MERN</div></div>
             <div className="project-card-body">
-              <div className="project-meta"><div className="project-num" style={{ color: 'var(--red)' }}>01</div><div className="project-category-badge">UI Design · Advertisement</div></div>
-              <div className="project-title">Milkshake Ad UI</div>
-              <p className="project-desc">Created a modern milkshake advertisement UI in Figma, emphasizing visual storytelling, product presentation, and user engagement.</p>
-              <div className="project-tags"><span className="project-tag">Figma</span><span className="project-tag">UI Design</span><span className="project-tag">Storytelling</span><span className="project-tag">Advertisement</span></div>
-              <div className="project-links"><a href="#" className="project-link">🎨 Figma</a><a href="#" className="project-link">🅱 Behance</a><div className="project-arrow">↗</div></div>
+              <div className="project-meta"><div className="project-num" style={{ color: 'var(--red)' }}>01</div><div className="project-category-badge">Full-Stack Application</div></div>
+              <div className="project-title">Telecom Billing System</div>
+              <p className="project-desc">Built a telecom billing application with JWT authentication and role-based access control. Includes plan management, recharges, call/SMS/data usage tracking, and automated bill generation.</p>
+              <div className="project-tags"><span className="project-tag">React</span><span className="project-tag">Node.js</span><span className="project-tag">Express</span><span className="project-tag">MongoDB</span><span className="project-tag">JWT</span></div>
+              <div className="project-links"><span className="project-link">Secure billing &amp; usage management</span><div className="project-arrow">↗</div></div>
             </div>
           </div>
           <div className="project-card fade-up">
-            <div className="project-card-banner banner-2"><span style={{ fontSize: '5rem' }}>🍔</span><div className="project-year-badge" style={{ background: '#5c6bc0' }}>2026</div></div>
+            <div className="project-card-banner banner-2"><span style={{ fontSize: '5rem' }}>🧠</span><div className="project-year-badge" style={{ background: '#5c6bc0' }}>AI</div></div>
             <div className="project-card-body">
-              <div className="project-meta"><div className="project-num" style={{ color: '#5c6bc0' }}>02</div><div className="project-category-badge">UI/UX Design · Mobile App</div></div>
-              <div className="project-title">Food Delivery App</div>
-              <p className="project-desc">A modern food delivery app UI featuring product details, add-ons, cart management, and an intuitive user experience designed to simplify online food ordering.</p>
-              <div className="project-tags"><span className="project-tag">Mobile App</span><span className="project-tag">Figma</span><span className="project-tag">UX Research</span><span className="project-tag">E-Commerce</span></div>
-              <div className="project-links"><a href="#" className="project-link">🎨 Figma</a><a href="#" className="project-link">🅱 Behance</a><div className="project-arrow" style={{ background: '#5c6bc0' }}>↗</div></div>
+              <div className="project-meta"><div className="project-num" style={{ color: '#5c6bc0' }}>02</div><div className="project-category-badge">AI · Recruitment</div></div>
+              <div className="project-title">AI Resume Screening</div>
+              <p className="project-desc">Created a recruitment platform that compares resumes with job descriptions using TF-IDF and cosine similarity, computes match scores, and highlights matched and missing skills. Includes recruiter login, uploads, and screening reports.</p>
+              <div className="project-tags"><span className="project-tag">React</span><span className="project-tag">Node.js</span><span className="project-tag">MongoDB</span><span className="project-tag">Python</span><span className="project-tag">Flask</span></div>
+              <div className="project-links"><span className="project-link">NLP-powered candidate analysis</span><div className="project-arrow" style={{ background: '#5c6bc0' }}>↗</div></div>
             </div>
           </div>
           <div className="project-card fade-up">
-            <div className="project-card-banner banner-3"><span style={{ fontSize: '5rem' }}>💻</span><div className="project-year-badge" style={{ background: '#1e88e5' }}>2025</div></div>
+            <div className="project-card-banner banner-3"><span style={{ fontSize: '5rem' }}>🎓</span><div className="project-year-badge" style={{ background: '#1e88e5' }}>PDF</div></div>
             <div className="project-card-body">
-              <div className="project-meta"><div className="project-num" style={{ color: '#1e88e5' }}>03</div><div className="project-category-badge">Web Development · Full Stack</div></div>
-              <div className="project-title">Modern Web Application</div>
-              <p className="project-desc">A responsive and dynamic web application featuring modern UI/UX design, interactive animations, and seamless user experience.</p>
-              <div className="project-tags"><span className="project-tag">React</span><span className="project-tag">Frontend</span><span className="project-tag">Web Design</span><span className="project-tag">Interactive</span></div>
-              <div className="project-links"><a href="#" className="project-link">⬛ GitHub</a><div className="project-arrow" style={{ background: '#1e88e5' }}>↗</div></div>
+              <div className="project-meta"><div className="project-num" style={{ color: '#1e88e5' }}>03</div><div className="project-category-badge">Full-Stack · Productivity</div></div>
+              <div className="project-title">Certification Generator</div>
+              <p className="project-desc">Developed a certificate management application with customizable templates, dynamic text fields, and live previews. REST APIs support certificate processing and PDF generation/downloads.</p>
+              <div className="project-tags"><span className="project-tag">React</span><span className="project-tag">Node.js</span><span className="project-tag">Express</span><span className="project-tag">MongoDB</span><span className="project-tag">PDF</span></div>
+              <div className="project-links"><span className="project-link">Custom templates &amp; PDF downloads</span><div className="project-arrow" style={{ background: '#1e88e5' }}>↗</div></div>
             </div>
           </div>
           <div className="project-card fade-up">
-            <div className="project-card-banner banner-4"><span style={{ fontSize: '5rem' }}>👟</span><div className="project-year-badge" style={{ background: '#f9a825', color: '#333' }}>2025</div></div>
+            <div className="project-card-banner banner-4"><span style={{ fontSize: '5rem' }}>🦺</span><div className="project-year-badge" style={{ background: '#f9a825', color: '#333' }}>AI</div></div>
             <div className="project-card-body">
-              <div className="project-meta"><div className="project-num" style={{ color: '#f9a825' }}>04</div><div className="project-category-badge">Web Development · E-Commerce</div></div>
-              <div className="project-title">SneakerX E-Commerce</div>
-              <p className="project-desc">A sleek, modern e-commerce platform dedicated to premium footwear. Features include a dynamic product catalog, interactive filtering, and an optimized checkout experience.</p>
-              <div className="project-tags"><span className="project-tag">React</span><span className="project-tag">E-Commerce</span><span className="project-tag">UI/UX</span><span className="project-tag">Web Design</span></div>
-              <div className="project-links"><a href="#" className="project-link">⬛ GitHub</a><div className="project-arrow" style={{ background: '#f9a825' }}>↗</div></div>
+              <div className="project-meta"><div className="project-num" style={{ color: '#f9a825' }}>04</div><div className="project-category-badge">AI · Computer Vision · Site Safety</div></div>
+              <div className="project-title">SentinelVision AI</div>
+              <p className="project-desc">Built an AI-powered CCTV safety-monitoring system that detects and tracks people with stable identities, checks PPE compliance, and flags restricted-area intrusion, loitering, abnormal movement, possible falls, and crowd anomalies. Incidents include snapshot and video evidence, with real-time alerts and historical search.</p>
+              <p className="project-desc">The diagnostics API reports the inference backend actually running, why alternatives are unavailable, whether Mojo kernels are active, and whether PPE status comes from a trained model or a clearly labelled colour heuristic.</p>
+              <div className="project-tags"><span className="project-tag">AI</span><span className="project-tag">Computer Vision</span><span className="project-tag">YOLO</span><span className="project-tag">ONNX Runtime</span><span className="project-tag">ByteTrack</span><span className="project-tag">WebSockets</span></div>
+              <div className="project-links"><a href="https://github.com/NithyaSriSenthilram/PPE_Violation_detection" className="project-link" target="_blank" rel="noreferrer">View project on GitHub ↗</a><div className="project-arrow" style={{ background: '#f9a825' }}>↗</div></div>
             </div>
           </div>
           <div className="project-card fade-up">
-            <div className="project-card-banner banner-5"><span style={{ fontSize: '5rem' }}>☕</span><div className="project-year-badge" style={{ background: '#795548' }}>2025</div></div>
+            <div className="project-card-banner banner-5"><span style={{ fontSize: '5rem' }}>🌱</span><div className="project-year-badge" style={{ background: '#43a047' }}>IoT</div></div>
             <div className="project-card-body">
-              <div className="project-meta"><div className="project-num" style={{ color: '#795548' }}>05</div><div className="project-category-badge">Web Development · Café</div></div>
-              <div className="project-title">Artisan Coffee Roasters</div>
-              <p className="project-desc">A warm and inviting website for a local coffee shop. Features an online ordering system, menu showcase, and an interactive location map.</p>
-              <div className="project-tags"><span className="project-tag">React</span><span className="project-tag">Frontend</span><span className="project-tag">UI/UX</span><span className="project-tag">Web Design</span></div>
-              <div className="project-links"><a href="#" className="project-link">⬛ GitHub</a><div className="project-arrow" style={{ background: '#795548' }}>↗</div></div>
+              <div className="project-meta"><div className="project-num" style={{ color: '#43a047' }}>05</div><div className="project-category-badge">IoT · Smart Agriculture</div></div>
+              <div className="project-title">Smart Farming Dashboard</div>
+              <p className="project-desc">Built a responsive real-time IoT dashboard for monitoring temperature, humidity, soil moisture, light intensity, pH, and atmospheric pressure, with interactive charts and manual sensor-data entry.</p>
+              <p className="project-desc">Includes crop- and soil-based fertilizer and pesticide advisors, secure JWT authentication, and farm management for farms, field blocks, crop assignments, and deployed sensors.</p>
+              <div className="project-tags"><span className="project-tag">React 19</span><span className="project-tag">Node.js</span><span className="project-tag">Express</span><span className="project-tag">MongoDB</span><span className="project-tag">Socket.io</span><span className="project-tag">Chart.js</span></div>
+              <div className="project-links"><a href="https://github.com/NithyaSriSenthilram/Smart-Farming-Dashboard" className="project-link" target="_blank" rel="noreferrer">View project on GitHub ↗</a><div className="project-arrow" style={{ background: '#43a047' }}>↗</div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CERTIFICATIONS & ACHIEVEMENTS */}
+      <section id="certifications">
+        <div className="experience-inner">
+          <div className="experience-header fade-up">
+            <div>
+              <div className="section-eyebrow">Learning &amp; Recognition</div>
+              <div className="section-heading">CERTIFICATIONS &amp; ACHIEVEMENTS</div>
+            </div>
+          </div>
+          <div className="timeline">
+            <div className="timeline-item fade-up">
+              <div className="timeline-dot"></div>
+              <div>
+                <div className="timeline-type">NPTEL</div>
+              </div>
+              <div>
+                <div className="timeline-role">Programming in Java</div>
+                <div className="timeline-company">NPTEL Certification</div>
+              </div>
+            </div>
+            <div className="timeline-item fade-up">
+              <div className="timeline-dot"></div>
+              <div>
+                <div className="timeline-type">NPTEL</div>
+              </div>
+              <div>
+                <div className="timeline-role">Cloud Computing</div>
+                <div className="timeline-company">NPTEL Certification</div>
+              </div>
+            </div>
+            <div className="timeline-item fade-up">
+              <div className="timeline-dot"></div>
+              <div>
+                <div className="timeline-type">NPTEL</div>
+              </div>
+              <div>
+                <div className="timeline-role">Introduction to Internet of Things</div>
+                <div className="timeline-company">NPTEL Certification</div>
+              </div>
+            </div>
+            <div className="timeline-item fade-up">
+              <div className="timeline-dot"></div>
+              <div>
+                <div className="timeline-type">Infosys Springboard</div>
+              </div>
+              <div>
+                <div className="timeline-role">Artificial Intelligence</div>
+                <div className="timeline-company">Infosys Springboard Certification</div>
+              </div>
+            </div>
+            <div className="timeline-item fade-up">
+              <div className="timeline-dot"></div>
+              <div>
+                <div className="timeline-type">UiPath Academy</div>
+              </div>
+              <div>
+                <div className="timeline-role">Agentic Automation Developer Associate Training</div>
+                <div className="timeline-company">UiPath Academy</div>
+              </div>
+            </div>
+            <div className="timeline-item fade-up">
+              <div className="timeline-dot"></div>
+              <div>
+                <div className="timeline-type">3rd Prize</div>
+              </div>
+              <div>
+                <div className="timeline-role">Virtual Hackathon</div>
+                <div className="timeline-company">GDG On Campus · Ramco Institute of Technology</div>
+              </div>
             </div>
           </div>
         </div>
@@ -719,7 +835,7 @@ function App() {
           <div className="fade-up" style={{ textAlign: 'center' }}>
             <div className="section-eyebrow" style={{ textAlign: 'center' }}>Let's Talk</div>
             <div className="section-heading" style={{ textAlign: 'center', marginBottom: '16px' }}>CONTACT</div>
-            <p className="contact-sub">Have a project in mind? Let's design something extraordinary together.</p>
+            <p className="contact-sub">I'm eager to contribute to real-world projects and connect with people building useful technology.</p>
           </div>
           <div className="contact-content-wrap fade-up">
             <div className="contact-email-container">
@@ -731,18 +847,16 @@ function App() {
             
             <div className="contact-details-grid">
               <div className="contact-detail-col">
-                <div className="contact-detail-label">Location</div>
-                <div className="contact-detail-value">India · Available Worldwide</div>
-                <div className="contact-detail-sub">Remote-friendly · IST (UTC+5:30)</div>
+                <div className="contact-detail-label">Phone &amp; Location</div>
+                <div className="contact-detail-value">+91 70105 23837</div>
+                <div className="contact-detail-sub">Tamil Nadu, India</div>
               </div>
               
               <div className="contact-detail-col">
                 <div className="contact-detail-label">Follow Me</div>
                 <div className="contact-social-links">
-                  <a href="#" className="contact-social-link-min">LinkedIn</a>
-                  <a href="#" className="contact-social-link-min">Figma</a>
-                  <a href="#" className="contact-social-link-min">GitHub</a>
-                  <a href="#" className="contact-social-link-min">Behance</a>
+                  <a href="https://www.linkedin.com/in/nithya-sri-s-profile" className="contact-social-link-min" target="_blank" rel="noreferrer">LinkedIn</a>
+                  <a href="https://github.com/NithyaSriSenthilram" className="contact-social-link-min" target="_blank" rel="noreferrer">GitHub</a>
                 </div>
               </div>
             </div>
@@ -756,22 +870,23 @@ function App() {
           <div className="footer-top">
             <div>
               <div className="footer-name">Nithya Sri.</div>
-              <div className="footer-tagline">UI/UX Designer crafting beautiful, functional digital experiences.</div>
+              <div className="footer-tagline">Computer Science student building full-stack and AI-powered applications.</div>
             </div>
-            <a href="#contact" className="footer-cta">START A PROJECT →</a>
+            <a href="#contact" className="footer-cta">LET'S CONNECT →</a>
           </div>
           <ul className="footer-nav">
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Internship</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <div className="footer-bottom">
             <div className="footer-copyright">© 2026 Nithya Sri. All rights reserved.</div>
             <ul className="footer-socials">
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Figma</a></li>
-              <li><a href="#">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/nithya-sri-s-profile" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/NithyaSriSenthilram" target="_blank" rel="noreferrer">GitHub</a></li>
             </ul>
           </div>
           <div className="footer-watermark"><div className="footer-watermark-text">NITHYA SRI</div></div>
